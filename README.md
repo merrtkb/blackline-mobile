@@ -1,17 +1,42 @@
-# frontend
+# Blackline – Vehicle Showcase & Request Platform
 
-A new Flutter project.
+Blackline is a Flutter-based vehicle showcase and request management application developed as part of the CEN306 Mobile Application Design and Development course project.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Blackline allows users to browse a collection of premium vehicles, view detailed information, manage favorite vehicles, and submit vehicle requests through an intuitive mobile interface. The application is designed using a layered architecture and utilizes SQLite for local data persistence.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* User registration and login
+* Vehicle browsing and detailed vehicle information
+* Favorite vehicle management
+* Vehicle request submission
+* Request tracking and management
+* User profile management
+* Password update functionality
+* Local data storage with SQLite
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+* Flutter
+* Dart
+* SQLite (sqflite)
+* Layered Architecture
+* Repository Pattern
+* DAO (Data Access Object)
+
+## Project Structure
+
+```text
+lib/
+├── business/
+├── data/
+│   ├── database/
+│   ├── dao/
+│   └── repositories/
+├── models/
+├── screens/
+├── theme/
+└── main.dart
+```
