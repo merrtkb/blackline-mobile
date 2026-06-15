@@ -1,6 +1,6 @@
 # Blackline – Vehicle Showcase & Request Platform
 
-Blackline is a Flutter-based vehicle showcase and request management application developed as part of the CEN306 Mobile Application Design and Development course project.
+Blackline is a Flutter-based vehicle showcase and request management application.
 
 ## Overview
 
